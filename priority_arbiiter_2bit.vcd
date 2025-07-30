@@ -1,0 +1,42 @@
+$date
+	Wed Jul 30 10:03:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_priority_arbiter_2bit $end
+$var wire 2 ! grant [1:0] $end
+$var reg 2 " req [1:0] $end
+$scope module uut $end
+$var wire 2 # req [1:0] $end
+$var reg 2 $ grant [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b1 !
+b1 $
+b1 "
+b1 #
+#20
+b10 !
+b10 $
+b10 "
+b10 #
+#30
+b11 "
+b11 #
+#40
